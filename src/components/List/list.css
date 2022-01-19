@@ -1,0 +1,158 @@
+.repayment {
+    max-width: 330px;
+    padding: 0px;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.blocks .blocks-margin {
+    margin-left: 30px;
+}
+
+/* .product{
+    width: 95%;
+    justify-content: center;
+} */
+.submit {
+    margin-left: 15px;
+    background: #3580fd;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #3580fd;
+    padding: 5px 30px;
+    font-weight: bold;
+    height: 53px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.logout {
+     margin-left: 15px;
+    margin-top: -7px;
+    /* background: #3580fd; */
+    /* color: white; */
+    border-radius: 22%;
+    border: 1px solid #3580fd;
+    padding: 0px 23px;
+    font-weight: bold;
+    height: 43px;
+    cursor: pointer;
+}
+
+.logout:hover span {
+    display: none;
+}
+
+.logout:hover::before {
+    content: 'Logout';
+}
+
+.form-action {
+    margin: 20px 0 5px;
+}
+
+.user-mode {
+    width: 9%;
+    padding: 10px;
+    background: none;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3580fd;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.inline-div {
+    display: inline-flex;
+}
+
+.m-15 {
+    margin-left: 15%;
+}
+
+.m-27 {
+    margin: 27px;
+}
+
+.mt-17 {
+    margin-top: 17px;
+    ;
+}
+
+.m-25 {
+    margin: 25px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.max-width {
+    width: 100%;
+}
+
+.clickUrl {
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+.text-style {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.blocks .repay-margin {
+    /* margin: 30px; */
+    flex:content;
+    flex-direction: column;
+    display: inline;
+    /* -webkit-filter: blur(8px); */
+
+
+}
+
+/* .login {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    display: flex;
+    margin-left: 41%;
+    padding: 26px;
+    position: absolute;
+    top: 32%;
+    width: 19%;
+    align-items: center;
+} */
+.carimg{
+    width: 322px;
+    height: 236px;
+    border-radius: 0px;
+    background-color: #3432ff;
+}
+.column {
+    float: left;
+    width: 25.33%;
+    /* filter: blur(8px); */
+    /* padding: 10px; */
+    /* border: 1px solid; */
+    /* Should be removed. Only for demonstration */
+}
+.column .text {
+    text-align: center;
+    font-size: large;
+    word-break: break-all;
+    font-style: oblique;
+    font-weight: 600;
+    font-family: math;
+}

@@ -1,0 +1,62 @@
+.headers div{
+    background-color: #3432ff;
+}
+.headers .content {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.btn-logout{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: white;
+    text-transform: capitalize;
+     margin-left: 15px;
+     margin-top: -7px;
+     /* background: #3580fd; */
+     /* color: white; */
+     border-radius: 22%;
+     padding: 0px 23px;
+     font-weight: bold;
+     height: 43px;
+}
+
+.btn-logout:hover span {
+    display: none;
+}
+
+.btn-logout:hover::before {
+    content: 'Logout';
+}
+.btn-header {
+    color:white;
+}
+.logo{
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 101px;
+}
+
+.headers .content li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.headers .content li a {
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 17px;
+}
+
+.headers {
+    height: 12vh;
+}
